@@ -1,0 +1,22 @@
+type = "webpack"
+account_id = "120b3a5845a368ab786450ec84318ce6"
+
+[env.production]
+name = "Wab"
+routes = ['https://plateforme..co/*', 'https://laformationenchantee.Wab.co/*']
+zone_id = '7e413bbc4320acd4817edd06968d92cc'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-02-02"
+site = {bucket = "./build",entry-point = "workers-site"}
+
+[env.dev]
+name = "Wab-dev"
+route = 'https://dev124.Wab.co/*'
+zone_id = '7e413bbc4320acd4817edd06968d92cc'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-02-02"
+site = {bucket = "./build",entry-point = "workers-site"}
